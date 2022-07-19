@@ -190,3 +190,42 @@ footer span {
     margin-right: 50px;
     font-size: 30px;
 }
+
+
+
+
+/* responsive for mobile devices */
+@media screen and (max-width:688px) {
+    .header-div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+
+
+    .header-div img {
+        height: auto;
+    }
+
+    .main-body {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .options {
+        margin-bottom: 50px;
+    }
+
+    .blogs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer span {
+        display: flex;
+        flex-direction: column;
+    }
+}
