@@ -1,0 +1,191 @@
+/* header part  */
+.header-div {
+    font-family: 'Merriweather', serif;
+    height: 550px;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px 80px 0px 80px;
+    margin-bottom: 100px;
+}
+
+.header-info {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+
+@keyframes ball {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.fa-futbol {
+    animation: ball 0.5s infinite;
+    animation-play-state: running;
+}
+
+.header-para {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.header-div a {
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+}
+
+.header-div img {
+    height: 550px;
+    padding-left: 50px;
+}
+
+
+
+/* main body part  */
+
+
+/* common part  */
+.main-body {
+    display: flex;
+}
+
+
+/* options part  */
+
+.options {
+    background-color: rgb(44, 36, 36);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: 60px;
+    padding: 20px 10px 0px 10px;
+    margin-right: 60px;
+}
+
+.options a {
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#upcoming-match {
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.options a:hover {
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* matches part  */
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 60px;
+}
+
+.match {
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(240, 226, 226);
+    font-weight: bold;
+    text-align: center;
+}
+
+.vs {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.match-info {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.time {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 15px;
+}
+
+
+/* footer design  */
+/* common part  */
+footer {
+    margin-top: 100px;
+    background-color: rgb(34, 26, 26);
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+hr {
+    border: 0.5px solid rgb(83, 79, 79);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+footer span {
+    padding-right: 50px;
+}
+
+/* designs */
+#goal {
+    padding-top: ;
+    color: white;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+.social a {
+    margin-right: 50px;
+    font-size: 30px;
+}

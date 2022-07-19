@@ -1,0 +1,12 @@
+1.website-1
+2.responsive
+3.website-2
+
+
+
+bonus:
+1.google font
+2.tablet er VIEW ALL
+3.transition/animation
+4.section comment
+5.color combination
