@@ -236,7 +236,7 @@ footer span {
     }
 
     footer {
-        background-color: rgb(34, 26, 26);
+        width: auto background-color: rgb(34, 26, 26);
         text-align: center;
         color: white;
         padding-top: 5%;
