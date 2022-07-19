@@ -235,6 +235,14 @@ footer span {
         flex-direction: column;
     }
 
+    footer {
+        background-color: rgb(34, 26, 26);
+        text-align: center;
+        color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
     footer span {
         display: flex;
         flex-direction: column;
