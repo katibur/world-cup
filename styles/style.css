@@ -81,7 +81,7 @@
 .options-for-matches {
     background-color: rgb(44, 36, 36);
     width: 300px;
-    height: 200px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -131,13 +131,14 @@
 /* blogs part  */
 
 .blogs {
+    margin-right: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .blog {
     border-radius: 5px;
-    margin-right: 60px;
+    margin-right: 20px;
     margin-bottom: 50px;
     border: 1px solid rgb(240, 226, 226);
 }
@@ -179,14 +180,16 @@
 /* matches part  */
 
 .matches {
+    width: 100%;
     display: grid;
+    margin-right: 45px;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 60px;
+    padding-left: 20px;
 }
 
 .match {
     border-radius: 5px;
-    margin-right: 100px;
+    margin-right: 20px;
     margin-bottom: 50px;
     border: 1px solid rgb(240, 226, 226);
     font-weight: bold;
